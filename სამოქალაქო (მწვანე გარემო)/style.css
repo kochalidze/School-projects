@@ -61,11 +61,11 @@ a:hover {
 }  
 #div1 {
     width: 95%;  
-    height: 1050px; 
+    height: 1150px; 
 }
 #div2 {
     width: 95%;  
-    height: 1050px; 
+    height: 1150px; 
 }
 .childDiv {
     width: 90%;
@@ -78,7 +78,7 @@ a:hover {
     width: 900px;
     height: 700px;
     position: relative;
-    left: 400px;
+    left: 200px;
 }
 
 .child1 h2 {
@@ -159,7 +159,7 @@ a:hover {
 }
 .btndiv button {
     position: absolute; 
-    top: 4200px;
+    top: 4400px;
     left: 200px;
     width: 80%;
     height: 80px;
