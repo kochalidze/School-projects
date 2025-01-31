@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: rgb(86, 86, 86);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(101, 143, 171);
+    width: 100%;
+    height: 250px;
+}
+header p {
+    font-size: 40px;
+    color: rgb(252, 252, 252);
+    font-weight: 600;
+    /* position: relative;
+    top: 50px; */
+}
+h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    /* position: relative;
+    top: 80px; */
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+a:hover {
+    color: rgb(13, 255, 0);
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.child1 {
+    position: relative;
+    left: 45px;
+    top: 80px;
+    width: 95%;  
+    height: 450px; 
+    background-color: rgb(7, 6, 5);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 232);
+    box-shadow: 0px 0px 25px rgb(149, 148, 148);
+}  
+#div1 {
+    width: 95%;  
+    height: 1050px; 
+}
+#div2 {
+    width: 95%;  
+    height: 1050px; 
+}
+.childDiv {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: rgb(86, 86, 86);
+}
+.childDiv img {
+    width: 900px;
+    height: 700px;
+    position: relative;
+    left: 400px;
+}
+
+.child1 h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+.child1 p {
+    font-size: 30px;
+    font-weight: 700;
+}
+.childDiv ol li{
+    font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 200px;
+        gap: 10px;
+    }
+    header p {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    a {
+        font-size: 25px;
+    }
+    .child1 {
+        left: 10px;
+        width: 100%;
+        height: auto;
+    }
+    .child1 h2 {
+        font-size: 35px;
+    }
+    .child1 p {
+        font-size: 20px;
+    }
+    .childDiv ol li {
+        font-size: 18px;
+    }
+}
+
+/* მედია ქუერი ძალიან მცირე ეკრანებისთვის */
+@media (max-width: 480px) {
+    header {
+        height: 150px;
+        padding: 10px;
+    }
+    header p {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    a {
+        font-size: 20px;
+    }
+    .child1 {
+        padding: 10px;
+        left: 0;
+    }
+    .childDiv {
+        width: 100%;
+        gap: 20px;
+    }
+}
+#quizParent {
+    width: 90%;
+    height: 100px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btndiv button {
+    position: absolute; 
+    top: 4200px;
+    left: 200px;
+    width: 80%;
+    height: 80px;
+    font-size: 40px;
+    background-color: beige;
+    border-color: beige;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(128, 128, 128);
+}
+.btndiv button:hover {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+#quizDiv{
+    display: none;
+    width: 650px;
+    height: 650px;
+    background-color: antiquewhite;
+    position: relative;
+    bottom: 900px;
+    right: 100px;
+    gap: 20px;
+    border-radius: 30px;
+}
+#quizDiv input{
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#quizDiv h2 {
+    font-size: 40px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    color: rgb(144, 144, 144);
+}
+#quizDiv label {
+    position: relative;
+    font-size: 25px;
+}
+#quizDiv form {
+    position: relative;
+    top: 60px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#quizDiv form button {
+    width: 80%;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    border-radius: 15px;
+    background-color: rgb(240, 240, 240);
+    font-size: 20px;
+    border-color: white;
+}
+#quizDiv form button:hover {
+    background-color: rgb(222, 222, 222);
+    transform: scale(1.1);
+}
+#dataTable {
+    margin-top: 50px;
+    width: 90%;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    top: 200px;
+}
+#dataTable th, #dataTable td {
+    border: 1px solid rgb(200, 200, 200);
+    padding: 10px;
+}
+#dataTable th {
+    background-color: rgb(180, 180, 180);
+}
+.nameDiv {
+    position: relative;
+    left: 500px;
+    bottom: 80px;
+}
+
+
