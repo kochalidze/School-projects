@@ -67,6 +67,10 @@ a:hover {
     width: 95%;  
     height: 1150px; 
 }
+#div2 img {
+    width: 800px;
+    height: 600px;
+}
 .childDiv {
     width: 90%;
     display: flex;
