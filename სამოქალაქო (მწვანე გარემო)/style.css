@@ -143,6 +143,12 @@ a:hover {
         width: 90%;
         height: auto;
     }
+
+}
+@media (max-width: 612) {
+    .btndiv button {
+        font-size: 10px;
+    }
 }
 
 /* მედია ქუერი: მცირე ეკრანებისთვის */
@@ -210,6 +216,7 @@ a:hover {
     #quizDiv form button {
         font-size: 18px;
     }
+
 }
 
 /* ცხრილისთვის და სურათებისთვის დამატებითი ქუერები */
