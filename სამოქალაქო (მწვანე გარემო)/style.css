@@ -115,6 +115,7 @@ a:hover {
         left: 10px;
         width: 100%;
         height: auto;
+        margin-bottom: 20px;
     }
     .child1 h2 {
         font-size: 35px;
@@ -125,9 +126,26 @@ a:hover {
     .childDiv ol li {
         font-size: 18px;
     }
+    .childDiv img {
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
+    #dataTable {
+        font-size: 14px;
+        width: 100%;
+    }
+    #dataTable th, #dataTable td {
+        font-size: 14px;
+        padding: 5px;
+    }
+    #quizDiv {
+        width: 90%;
+        height: auto;
+    }
 }
 
-/* მედია ქუერი ძალიან მცირე ეკრანებისთვის */
+/* მედია ქუერი: მცირე ეკრანებისთვის */
 @media (max-width: 480px) {
     header {
         height: 150px;
@@ -145,12 +163,91 @@ a:hover {
     .child1 {
         padding: 10px;
         left: 0;
+        width: 100%;
+        margin-bottom: 15px;
     }
     .childDiv {
         width: 100%;
         gap: 20px;
     }
+    .childDiv img {
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
+    .child1 h2 {
+        font-size: 30px;
+    }
+    .child1 p {
+        font-size: 18px;
+    }
+    .childDiv ol li {
+        font-size: 16px;
+    }
+    #dataTable {
+        font-size: 12px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    #dataTable th, #dataTable td {
+        font-size: 12px;
+        padding: 5px;
+    }
+    #quizDiv {
+        width: 100%;
+        height: auto;
+        bottom: 600px;
+    }
+    #quizDiv h2 {
+        font-size: 30px;
+    }
+    #quizDiv label {
+        font-size: 20px;
+    }
+    #quizDiv input {
+        font-size: 16px;
+    }
+    #quizDiv form button {
+        font-size: 18px;
+    }
 }
+
+/* ცხრილისთვის და სურათებისთვის დამატებითი ქუერები */
+@media (max-width: 320px) {
+    #dataTable {
+        font-size: 10px;
+        width: 100%;
+    }
+    #dataTable th, #dataTable td {
+        font-size: 10px;
+        padding: 3px;
+    }
+    .childDiv img {
+        width: 100%;
+        height: auto;
+    }
+    #div2 img {
+        width: 100%;
+        height: auto;
+    }
+    #quizDiv {
+        width: 100%;
+        height: auto;
+    }
+    #quizDiv h2 {
+        font-size: 24px;
+    }
+    #quizDiv label {
+        font-size: 18px;
+    }
+    #quizDiv input {
+        font-size: 14px;
+    }
+    #quizDiv form button {
+        font-size: 16px;
+    }
+}
+
 #quizParent {
     width: 90%;
     height: 100px;
